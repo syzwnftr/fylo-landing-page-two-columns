@@ -57,7 +57,6 @@
 }
 
 .img-one {
-  text-align: center;
   width: 100%;
   margin-bottom: 1rem;
 }
@@ -87,6 +86,7 @@
   margin-bottom: 1rem;
   border-radius: 0.3rem;
   border: 1px solid var(--veryDarkBlue);
+  outline: none;
 }
 
 .btn-email {
@@ -97,4 +97,34 @@
   background-color: var(--brightBlue);
   border: none;
   border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-email:hover {
+  background-color: hsla(224, 93%, 58%, 80%);
+}
+
+.component-two {
+  margin-top: 6rem;
+}
+
+.img-two {
+  width: 100%;
+}
+
+.component-two h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  color: var(--veryDarkBlue);
+}
+
+.component-two p {
+  margin-top: 1rem;
+  color: var(--veryDarkBlue);
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85rem;
 }
