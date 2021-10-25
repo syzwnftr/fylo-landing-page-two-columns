@@ -23,7 +23,7 @@
 
 .container {
   max-width: 100%;
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 
 .header {
@@ -62,13 +62,39 @@
   margin-bottom: 1rem;
 }
 
-.hero-text {
+.hero {
+  margin-bottom: 2rem;
+}
+
+.hero-h1 {
   font-size: 1.5rem;
   color: var(--veryDarkBlue);
   margin-bottom: 2rem;
 }
 
-.des p {
+.hero p {
   font-size: 0.9rem;
-  color: var(--desBlue);
+  color: var(--veryDarkBlue);
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-email {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--veryDarkBlue);
+}
+
+.btn-email {
+  padding: 0.8rem;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 700;
+  background-color: var(--brightBlue);
+  border: none;
+  border-radius: 0.3rem;
 }
