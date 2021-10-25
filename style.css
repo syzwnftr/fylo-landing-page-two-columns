@@ -1,0 +1,74 @@
+/* heading, cta, header navigation */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+/* font-family: 'Raleway', sans-serif; */
+
+/* body */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+
+:root {
+  --veryDarkBlue: hsl(243, 87%, 12%);
+  --desBlue: hsl(238, 22%, 44%);
+  --brightBlue: hsl(224, 93%, 58%);
+  --modCyan: hsl(170, 45%, 43%);
+  --lightGrayishBlue: hsl(240, 75%, 98%);
+  --lightGray: hsl(0, 0%, 75%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+  padding: 2rem 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo-mobile {
+  max-width: 25%;
+  flex-basis: 30%;
+}
+
+.nav-links {
+  flex-basis: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--veryDarkBlue);
+}
+
+.component-one {
+  margin-top: 4rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.img-one {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  color: var(--veryDarkBlue);
+  margin-bottom: 2rem;
+}
+
+.des p {
+  font-size: 0.9rem;
+  color: var(--desBlue);
+}
