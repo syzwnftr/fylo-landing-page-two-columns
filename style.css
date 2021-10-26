@@ -23,7 +23,7 @@
 
 .container {
   max-width: 100%;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .header {
@@ -48,6 +48,10 @@
 .nav-links a {
   text-decoration: none;
   color: var(--veryDarkBlue);
+}
+
+.component {
+  padding: 0 2rem;
 }
 
 .component-one {
@@ -107,6 +111,13 @@
 
 .component-two {
   margin-top: 6rem;
+  /* background-color: var(--lightGrayishBlue); */
+  /* background-color: yellow; */
+  background-image: url("./images/bg-curve-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 3rem;
 }
 
 .img-two {
@@ -124,7 +135,73 @@
 
 .component-two p {
   margin-top: 1rem;
-  color: var(--veryDarkBlue);
+  color: var(--desBlue);
   font-family: "Open Sans", sans-serif;
   font-size: 0.85rem;
+}
+
+.fylo-work {
+  border-bottom: 2px solid var(--modCyan);
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 0.3rem 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fylo-work a {
+  text-decoration: none;
+  margin-right: 0.8rem;
+  color: var(--modCyan);
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.fylo-work:hover a {
+  color: hsla(170, 45%, 43%, 70%);
+}
+
+.arrow-icon {
+  width: 15%;
+}
+
+.testimonial {
+  background-color: white;
+  box-shadow: 1px 1px 20px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-top: 2.5rem;
+}
+
+.quotes {
+  margin-bottom: 1rem;
+}
+
+.testimonial p {
+  font-size: 0.78rem;
+  color: var(--veryDarkBlue);
+  margin-top: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.person {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.img-testimonial {
+  width: 20%;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.testimonial .position {
+  font-size: 0.6rem;
 }
