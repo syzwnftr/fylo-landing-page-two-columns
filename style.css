@@ -49,6 +49,11 @@
 .nav-links a {
   text-decoration: none;
   color: var(--veryDarkBlue);
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: hsla(243, 87%, 12%, 50%);
 }
 
 .component {
