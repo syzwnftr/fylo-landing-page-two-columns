@@ -24,6 +24,7 @@
 .container {
   max-width: 100%;
   padding: 2rem 0;
+  padding-bottom: 0;
 }
 
 .header {
@@ -238,4 +239,80 @@
 
 .earlyAccess-btn:hover {
   background-color: rgb(117, 152, 250);
+}
+
+.component-four {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--veryDarkBlue);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo-footer {
+  max-width: 40%;
+  margin-bottom: 1rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.img-phone,
+.img-email {
+  margin-right: 1rem;
+}
+
+.others {
+  margin-top: 3rem;
+}
+
+.others > * {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: color 0.3s;
+}
+
+.others > *:hover {
+  color: var(--modCyan);
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.socialMedia a {
+  border: 1px solid white;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.socialMedia a:hover,
+.socialMedia a:hover i {
+  border-color: var(--modCyan);
+  color: var(--modCyan);
+}
+
+.socialMedia a i {
+  color: white;
+  transition: 0.3s;
+}
+
+.fb,
+.twitter {
+  margin-right: 1rem;
 }
