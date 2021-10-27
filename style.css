@@ -148,7 +148,7 @@
 
 .fylo-work {
   border-bottom: 2px solid var(--modCyan);
-  width: 55%;
+  max-width: 170px;
   margin: 0 auto;
   margin-top: 2rem;
   padding: 0.3rem 0;
@@ -323,4 +323,17 @@
 .fb,
 .twitter {
   margin-right: 1rem;
+}
+
+@media (min-width: 43.75rem) {
+  .logo-mobile {
+    max-width: 20%;
+    flex-basis: 50%;
+  }
+
+  .nav-links {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
 }
