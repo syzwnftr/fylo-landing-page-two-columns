@@ -117,8 +117,6 @@
 
 .component-two {
   margin-top: 6rem;
-  /* background-color: var(--lightGrayishBlue); */
-  /* background-color: yellow; */
   background-image: url("./images/bg-curve-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -380,5 +378,40 @@
 
   .btn-email {
     flex-basis: 35%;
+  }
+
+  .component-two {
+    display: flex;
+    align-items: center;
+    background-image: url("./images/bg-curve-desktop.svg");
+    /* background-color: var(--lightGrayishBlue); */
+    background-size: cover;
+    background-position: left 50% top 0%;
+  }
+
+  .text-testimonial {
+    order: -1;
+    flex-basis: 50%;
+  }
+
+  .img-two {
+    flex-basis: 50%;
+  }
+
+  .component-two h2 {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .component-two p {
+    font-size: 0.8rem;
+  }
+
+  .fylo-work {
+    margin: 2rem 0 0 0;
+  }
+
+  .testimonial {
+    max-width: 300px;
   }
 }
