@@ -232,8 +232,12 @@
 }
 
 .early-access {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
+  max-width: 90%;
 }
 
 .earlyAccess-input {
@@ -413,5 +417,79 @@
 
   .testimonial {
     max-width: 300px;
+  }
+
+  .component-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .text-comp-three {
+    flex-basis: 50%;
+  }
+
+  .component-three h2 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .comp-three-p {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    font-size: 0.85rem;
+  }
+
+  .early-access {
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-basis: 50%;
+    margin-left: 1rem;
+  }
+
+  .earlyAccess-input {
+    margin-bottom: 1rem;
+  }
+
+  .earlyAccess-btn {
+    width: 200px;
+  }
+
+  .component-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .logo-footer {
+    max-width: 20%;
+    margin-bottom: 1rem;
+  }
+
+  .contact-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .info {
+    padding: 0;
+  }
+
+  .phone {
+    margin-bottom: 1rem;
+  }
+
+  .others {
+    margin-top: 0rem;
+  }
+
+  .abt,
+  .cntct {
+    margin-top: 0;
+  }
+
+  .socialMedia {
+    margin-top: 0rem;
   }
 }
