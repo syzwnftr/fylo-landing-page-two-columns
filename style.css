@@ -539,7 +539,6 @@
   }
 
   .text-comp-three {
-    /* padding-right: 4rem; */
     max-width: 550px;
     outline: 1px solid black;
   }
@@ -565,5 +564,29 @@
 
   .logo-footer {
     max-width: 10rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  .hero {
+    max-width: 560px;
+  }
+
+  .email-form {
+    max-width: 520px;
+    padding-right: 0;
+  }
+
+  .component-two h2 {
+    max-width: 550px;
+  }
+
+  .desc {
+    max-width: 550px;
+  }
+
+  .early-access {
+    max-width: 600px;
+    margin-left: 8rem;
   }
 }
