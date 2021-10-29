@@ -139,7 +139,7 @@
 
 .component-two p {
   margin-top: 1rem;
-  color: var(--desBlue);
+  color: var(--veryDarkBlue);
   font-family: "Open Sans", sans-serif;
   font-size: 0.85rem;
 }
@@ -491,5 +491,70 @@
 
   .socialMedia {
     margin-top: 0rem;
+  }
+}
+
+@media (min-width: 81.25rem) {
+  .component {
+    padding: 0 5rem;
+  }
+
+  .hero-h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .email-form {
+    padding-right: 3rem;
+  }
+
+  .img-one,
+  .img-two {
+    margin-left: 5rem;
+  }
+
+  .component-two h2 {
+    font-size: 2rem;
+  }
+
+  .component-two p {
+    font-size: 1.1rem;
+  }
+
+  .testimonial {
+    max-width: 370px;
+  }
+
+  .testimonial p {
+    font-size: 1rem;
+  }
+
+  .component-three {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .text-comp-three {
+    padding-right: 4rem;
+  }
+
+  .component-three h2 {
+    font-size: 1.8rem;
+  }
+
+  .comp-three-p {
+    font-size: 1.1rem;
+  }
+
+  .component-four {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .logo-footer {
+    max-width: 10rem;
   }
 }
