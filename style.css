@@ -417,6 +417,7 @@
 
   .testimonial {
     max-width: 300px;
+    margin-bottom: 5rem;
   }
 
   .component-three {
@@ -547,6 +548,10 @@
 
   .comp-three-p {
     font-size: 1.1rem;
+  }
+
+  .early-access {
+    padding-left: 4rem;
   }
 
   .component-four {
