@@ -423,11 +423,11 @@
   .component-three {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .text-comp-three {
-    flex-basis: 50%;
+    flex-basis: 45%;
   }
 
   .component-three h2 {
@@ -441,19 +441,23 @@
     font-size: 0.85rem;
   }
 
+  .early-access-div {
+    flex-basis: 45%;
+  }
+
   .early-access {
-    margin-top: 0;
-    margin-bottom: 0;
-    flex-basis: 50%;
-    margin-left: 1rem;
+    max-width: 100%;
+    margin: 0;
   }
 
   .earlyAccess-input {
     margin-bottom: 1rem;
+    flex-basis: 100%;
   }
 
   .earlyAccess-btn {
-    width: 200px;
+    min-width: 200px;
+    max-width: 400px;
   }
 
   .component-four {
@@ -540,7 +544,6 @@
 
   .text-comp-three {
     max-width: 550px;
-    outline: 1px solid black;
   }
 
   .component-three h2 {
@@ -549,12 +552,6 @@
 
   .comp-three-p {
     font-size: 1.1rem;
-  }
-
-  .early-access {
-    outline: 1px solid black;
-    max-width: 550px;
-    margin-left: 5rem;
   }
 
   .component-four {
@@ -585,8 +582,7 @@
     max-width: 550px;
   }
 
-  .early-access {
+  /* .early-access {
     max-width: 600px;
-    margin-left: 8rem;
-  }
+  } */
 }
