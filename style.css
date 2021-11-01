@@ -1,10 +1,8 @@
 /* heading, cta, header navigation */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
-/* font-family: 'Raleway', sans-serif; */
 
 /* body */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-/* font-family: 'Open Sans', sans-serif; */
 
 :root {
   --veryDarkBlue: hsl(243, 87%, 12%);
@@ -283,7 +281,6 @@
   margin-top: 1rem;
   text-decoration: none;
   color: white;
-  /* display: block; */
   transition: color 0.3s;
 }
 
@@ -368,7 +365,6 @@
   }
 
   .email-form {
-    /* outline: 1px solid black; */
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -388,7 +384,6 @@
     display: flex;
     align-items: center;
     background-image: url("./images/bg-curve-desktop.svg");
-    /* background-color: var(--lightGrayishBlue); */
     background-size: cover;
     background-position: left 50% top 0%;
   }
@@ -581,8 +576,4 @@
   .desc {
     max-width: 550px;
   }
-
-  /* .early-access {
-    max-width: 600px;
-  } */
 }
